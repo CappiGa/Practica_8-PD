@@ -32,7 +32,7 @@ Esta práctica implementa un **bucle de comunicación UART** en el ESP32-S3, don
 - **ESP32-S3**  
 - **Cable USB-C** (para monitor serie).  
 - **Cables dupont** (para loopback entre TXD2 y RXD2).  
-
+![Image](https://github.com/user-attachments/assets/52be142e-d402-45c9-a72e-31bf7f7df0a9)
 ---
 
 ## **5. Desarrollo**  
@@ -109,5 +109,6 @@ void loop() {
 - **Funcionamiento**:  
   - Cada carácter enviado al monitor serie se redirige a UART2 y vuelve a UART0 (loopback).  
   - Sin conexión loopback, solo se verán los mensajes de "Enviado".  
-
+![Image](https://github.com/user-attachments/assets/a643477b-41b8-4a02-bb42-b1c0c28e2696)
+![Image](https://github.com/user-attachments/assets/2143cabf-d5bd-4094-9607-143614ea325e)
 ---
